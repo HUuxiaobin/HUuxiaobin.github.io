@@ -111,7 +111,7 @@
 
 
 <h2>Research Interest</h2>
-<p class="info">My interests are in the field of computer vision, especially on the image editing and restoration.
+<!-- <p class="info">My interests are in the field of computer vision, especially on the image editing and restoration.
 Currently, I mainly focus on solving <B>the real-world low-quality image restoration </B>problems. Besides, I am also interested in the following research topics:</p>
 <ul>
 <li>Image Restoration</li>
@@ -119,7 +119,7 @@ Currently, I mainly focus on solving <B>the real-world low-quality image restora
 <li>Memory Network</li>
 <li>GAN Priors</li>
 <li>Image Inpainting and Completion</li>
-<li>Face Related Tasks</li>
+<li>Face Related Tasks</li> -->
 </ul>
 
 <!-- News -->
@@ -128,9 +128,9 @@ Currently, I mainly focus on solving <B>the real-world low-quality image restora
   <!-- <div style="height: 150px; overflow: auto;"> -->
   <div>
       <ul>
-          <li><p>Two papers are accepted in CVPR 2021.</p></li>
-          <li><p>Our DFDNet is incorporated into <a href="https://github.com/xinntao/BasicSR" target="_blank">BasicSR (an open source image and video super-resolution toolbox)</a>.</p></li>
-          <li><p>Our DFDNet is shared by <a href="https://www.youtube.com/channel/UCgfe2ooZD3VJPB6aJAnuQng" target="_blank">bycloud</a> on <a href="https://www.youtube.com/watch?v=oQQ0M8km47k" target="_blank">Youtube Video</a>.</p></li>
+<!--           <li><p>Two papers are accepted in CVPR 2021.</p></li> -->
+<!--           <li><p>Our DFDNet is incorporated into <a href="https://github.com/xinntao/BasicSR" target="_blank">BasicSR (an open source image and video super-resolution toolbox)</a>.</p></li> -->
+<!--           <li><p>Our DFDNet is shared by <a href="https://www.youtube.com/channel/UCgfe2ooZD3VJPB6aJAnuQng" target="_blank">bycloud</a> on <a href="https://www.youtube.com/watch?v=oQQ0M8km47k" target="_blank">Youtube Video</a>.</p></li> -->
       </ul>
   </div>
 
@@ -141,7 +141,7 @@ Currently, I mainly focus on solving <B>the real-world low-quality image restora
 <h2>Selected Publications <span class="thumb">(Click the thumbnail to see the details)</span></h2>
 
 <!-- SPGNet -->
-<table class="imgtable">
+<!-- <table class="imgtable">
   <tr>
     <td rowspan="4" class="pub_table">
       <a class="fancybox-effects-c" href="./files/SPGNet.png" title="Overview of our proposed method. It mainly contains two stages. In the first one, SPATN is adopted to generate the target parsing map. In the second one, feature deformation is utilized to warp the source appearance feature to the target pose, and SPGBlock is progressively introduced to incorporate the semantic region adaptive normalization on the generation of the target result.">
@@ -178,11 +178,11 @@ Currently, I mainly focus on solving <B>the real-world low-quality image restora
   booktitle = {CVPR},
   year = {2021}
 }</pre>
-</div>
+</div> -->
 
 
 <!-- PSFRGAN -->
-<table class="imgtable">
+<!-- <table class="imgtable">
   <tr>
     <td rowspan="4" class="pub_table">
       <a class="fancybox-effects-c" href="./files/PSFRGAN.png" title="Visulization of the proposed progressive semantic-aware style transformation network for face restoration.">
@@ -219,48 +219,9 @@ Currently, I mainly focus on solving <B>the real-world low-quality image restora
   booktitle = {CVPR},
   year = {2021}
 }</pre>
-</div>
+</div> -->
 
 
-<!-- DFDNet -->
-<table class="imgtable">
-  <tr>
-    <td rowspan="4" class="pub_table">
-      <a class="fancybox-effects-c" href="./files/DFDNet.png" title="Overview of our DFDNet. We first adopt K-means to generate K clusters for each component (i.e., left/right eyes, nose and mouth) on different feature scales. And then, the restoration process and dictionary feature transfer (DFT) block that are utilized to provide the reference details in a progressive manner.">
-        <img class="proj_thumb" src="./files/DFDNet_small.png" alt="DFDNet"/>&nbsp;</a>
-    </td>
-    <td>
-      <p class="pub_title lxmp_pub">Blind Face Restoration via Deep Multi-scale Component Dictionaries (DFDNet)</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_author"><B>Xiaoming Li</B>, Chaofeng Chen, Shangchen Zhou, Xianhui Lin, Wangmeng Zuo and Lei Zhang</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_conf">European Conference on Computer Vision (<B>ECCV</B>), 2020.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_link">[<a href= "http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540375.pdf" target="_blank">Paper</a>] 
-      [<a href="https://github.com/csxmli2016/DFDNet" target="_blank">Code</a>] 
-      [<a  onclick="display('dfdnet')" style="cursor:pointer;">BibTex</a>]
-      </p>
-    </td>
-  </tr>
-</table>
-<div>
-  <pre id="dfdnet" style="display: none;">
-@InProceedings{li2020dfdnet,
-  author={Li, Xiaoming  and Chen, Chaofeng and Zhou, Shangchen and Lin, Xianhui and Zuo, Wangmeng and Zhang, Lei},
-  title={Blind Face Restoration via Deep Multi-scale Component Dictionaries},
-  booktitle={ECCV},
-  year = {2020}
-}</pre>
-</div>
 
 <!-- 3D prior -->
 <table class="imgtable">
@@ -304,212 +265,6 @@ Currently, I mainly focus on solving <B>the real-world low-quality image restora
 </div>
 
 
-<!-- ASFFNet -->
-<table class="imgtable">
-  <tr>
-    <td rowspan="4" class="pub_table">
-      <a class="fancybox-effects-c" href="./files/ASFFNet.gif" title="Overview of our ASFFNet. WLS is adopted to select the optimal guidance from multiple exemplars, MLS and AdaIN are leveraged for spatial alignment and illumination of guidance image in the feature space, and ASFF layers are introduced to incorporate guidance features in an adaptive and progressive manner.">
-        <img class="proj_thumb" src="./files/ASFFNet_small.png" alt="ASFFNet"/>&nbsp;</a>
-    </td>
-    <td>
-      <p class="pub_title lxmp_pub">Enhanced Blind Face Restoration With Multi-Exemplar Images and Adaptive Spatial Feature Fusion (ASFFNet)</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_author"><B>Xiaoming Li</B>, Wenyu Li, Dongwei Ren, Hongzhi Zhang, Meng Wang and Wangmeng Zuo</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_conf">IEEE International Conference on Computer Vision and Pattern Recognition (<B>CVPR</B>), 2020 (Oral).</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_link">[<a href= "https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Enhanced_Blind_Face_Restoration_With_Multi-Exemplar_Images_and_Adaptive_Spatial_CVPR_2020_paper.pdf" target="_blank">Paper</a>] 
-      [<a href="https://github.com/csxmli2016/ASFFNet" target="_blank">Code</a>] 
-      [<a onclick="display('asffnet')" style="cursor:pointer;">BibTex</a>]
-      </p>
-    </td>
-  </tr>
-</table>
-<div>
-  <pre id="asffnet" style="display: none;">
-@InProceedings{li2020asffnet,
-  author={Li, Xiaoming and Li, Wenyu and Ren, Dongwei and Zhang, Hongzhi and Wang, Meng and Zuo, Wangmeng},
-  title={Enhanced Blind Face Restoration With Multi-Exemplar Images and Adaptive Spatial Feature Fusion},
-  booktitle={CVPR},
-  year = {2020}
-}</pre>
-</div>
-
-
-<!-- SymmFCNet -->
-<table class="imgtable">
-  <tr>
-    <td rowspan="4" class="pub_table">
-      <a class="fancybox-effects-c" href="./files/symmfcnet.png" title="Overview of our SymmFCNet. Red, green and blue lines in (a) represent the three types of pixel-wise correspondence between the input and the flip image. Red: missing pixels (input) to non-occluded pixels (flip);  Green: missing pixels (input) to  missing pixels (flip); Blue: remaining pixels (input) to remaining pixels (flip). In Stage I, the missing pixels in one-half face (red lines) are filled by reweighting the illumination of their symmetrical pixels in the other half-face. In Stage II, the missing pixels in both-half faces (green lines in (a)) are filled by the generative reconstruction subnet with the incorporation of perceptual symmetry loss for symmetry-consistent completion.">
-        <img class="proj_thumb" src="./files/symmfcnet_small.png" alt="SymmFCNet"/>&nbsp;</a>
-    </td>
-    <td>
-      <p class="pub_title lxmp_pub">Learning Symmetry Consistent Deep CNNs for Face Completion</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_author"><B>Xiaoming Li*</B>, Guoshegn Hu*, Jieru Zhu, Wangmeng Zuo, Meng Wang and Lei Zhang</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_conf">IEEE Transactions on Image Processing (<B>TIP</B>), 2020.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_link">[<a href= "http://www4.comp.polyu.edu.hk/~cslzhang/paper/SymmFCNet_VR_Final.pdf" target="_blank">Paper</a>] 
-      [<a href="https://github.com/csxmli2016/SymmFCNet" target="_blank">Code</a>] 
-      [<a onclick="display('symmfcnet')" style="cursor:pointer;">BibTex</a>]
-      </p>
-    </td>
-  </tr>
-</table>
-<div>
-  <pre id="symmfcnet" style="display: none;">
-@article{li2020symmfcnet,
-  author={Li, Xiaoming and Hu, Guosheng and Zhu, Jieru and Zuo, Wangmeng and Wang, Meng and Zhang, Lei},
-  title={Learning Symmetry Consistent Deep CNNs for Face Completion},
-  journal={IEEE Transactions on Image Processing},
-  year={2020},
-  volume={29},
-  number={},
-  pages={7641-7655},
-}</pre>
-</div>
-
-
-<!-- GFRNet -->
-<table class="imgtable">
-  <tr>
-    <td rowspan="4" class="pub_table">
-      <a class="fancybox-effects-c" href="./files/gfrnet.jpg" title="Overview of our GFRNet. The WarpNet takes the degraded observation I^d and guided image I^g as input to predict the dense flow field Φ, which is adopted to
-      deform I^g to the warped guidance I^w. I^w is expected to be spatially well aligned with the ground-truth I. Thus the RecNet takes I^w and I^d as input to produce the restoration result.">
-        <img class="proj_thumb" src="./files/gfrnet_small.jpg" alt="GFRNet"/>&nbsp;</a>
-    </td>
-    <td>
-      <p class="pub_title lxmp_pub">Learning Warped Guidance for Blind Face Restoration (GFRNet)</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_author"><B>Xiaoming Li</B>, Ming Liu, Yuting Ye, Wangmeng Zuo, Liang Lin and Ruigang Yang</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_conf">European Conference on Computer Vision (<B>ECCV</B>), 2018.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_link">[<a href= "https://arxiv.org/pdf/1804.04829.pdf" target="_blank">Paper</a>] 
-      [<a href="https://github.com/csxmli2016/GFRNet" target="_blank">Code</a>] 
-      [<a onclick="display('gfrnet')" style="cursor:pointer;">BibTex</a>]
-      </p>
-    </td>
-  </tr>
-</table>
-<div>
-  <pre id="gfrnet" style="display: none;">
-@InProceedings{li2018gfrnet,
-  author={Li, Xiaoming and Liu, Ming and Ye, Yuting and Zuo, Wangmeng and Lin, Liang and Yang, Ruigang},
-  title={Learning Warped Guidance for Blind Face Restoration},
-  booktitle={ECCV},
-  year = {2020}
-}</pre>
-</div>
-
-<!-- ShiftNet -->
-<table class="imgtable">
-  <tr>
-    <td rowspan="4" class="pub_table">
-      <a class="fancybox-effects-c" href="./files/shiftnet.png" title="Overview of our Shift Layer.  The encoder feature of the known region is shifted to serve as an estimation of the missing parts.">
-        <img class="proj_thumb" src="./files/shiftnet_small.png" alt="ShiftNet"/>&nbsp;</a>
-    </td>
-    <td>
-      <p class="pub_title lxmp_pub">Shift-Net: Image Inpainting via Deep Feature Rearrangement (ShiftNet)</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_author">Zhaoyi Yan, <B>Xiaoming Li</B>, Mu Li, Wangmeng Zuo and Shiguang Shan</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_conf">European Conference on Computer Vision (<B>ECCV</B>), 2018.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_link">[<a href= "https://arxiv.org/pdf/1801.09392.pdf" target="_blank">Paper</a>] 
-      [<a href="https://github.com/Zhaoyi-Yan/Shift-Net_pytorch" target="_blank">Code</a>] 
-      [<a onclick="display('shiftnet')" style="cursor:pointer;">BibTex</a>]
-      </p>
-    </td>
-  </tr>
-</table>
-<div>
-  <pre id="shiftnet" style="display: none;">
-@InProceedings{yan2018shiftnet,
-  author={Yan, Zhaoyi and Li, Xiaoming and Li, Mu and Zuo, Wangmeng and Shan, Shiguang},
-  title={Shift-Net: Image Inpainting via Deep Feature Rearrangement},
-  booktitle={ECCV},
-  year = {2020}
-}</pre>
-</div>
-
-<!-- IPFCNet -->
-<table class="imgtable">
-  <tr>
-    <td rowspan="4" class="pub_table">
-      <a class="fancybox-effects-c" href="./files/ipfcnet.png" title="Overview of our network.We take the reference image from the same identity with the occluded input and its corresponding pose details to regularize the searching space of generator.">
-        <img class="proj_thumb" src="./files/ipfcnet_small.png" alt=""/>&nbsp;
-    </td>
-    <td>
-      <p class="pub_title lxmp_pub">Identity Preserving Face Completion for Large Ocular Region Occlusion</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_author">Yajie Zhao, Weikai Chen, Jun Xing, <B>Xiaoming Li</B>, Zach Bessinger, Fuchang Liu, Wangmeng Zuo, Ruigang Yang</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_conf">The British Machine Vision Conference (<B>BMVC</B>), 2018.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p class="pub_link">[<a href= "https://arxiv.org/pdf/1807.08772.pdf" target="_blank">Paper</a>] 
-      [<a onclick="display('ipfcnet')" style="cursor:pointer;">BibTex</a>]
-      </p>
-    </td>
-  </tr>
-</table>
-<div>
-  <pre id="ipfcnet" style="display: none;">
-@InProceedings{zhao2018identity,
-  author={Zhao, Yajie and Chen, Weikai and Xing, Jun and Li, Xiaoming and Bessinger, Zach and Liu, Fuchang and Zuo, Wangmeng and Yang, Ruigang},
-  title={Identity Preserving Face Completion for Large Ocular Region Occlusion},
-  booktitle={BMVC},
-  year = {2018}
-}</pre>
-</div>
-
-
 <!-- Services -->
 <a id="services" class="anchor"></a>
 <h2>Academic Services</h2>
@@ -517,18 +272,18 @@ Currently, I mainly focus on solving <B>the real-world low-quality image restora
 <p><B>Journal Reviewer:  </B></p>
 <font size="2"> 
 <ul>
-<li>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
+<!-- <li>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
 <li>IEEE Transactions on Image Processing (TIP)</li>
-<li>Computer Vision and Image Understanding (CVIU)</li>
+<li>Computer Vision and Image Understanding (CVIU)</li> -->
 </ul>
 </font>
 <br />
 <p><B>Conference Reviewer: </B></p>
 <font size="2"> 
 <ul>
-<li>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</li>
+<!-- <li>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</li>
 <li>International Joint Conferences on Artificial Intelligence (IJCAI)</li>
-<li>Asian Conference on Computer Vision (ACCV)</li>
+<li>Asian Conference on Computer Vision (ACCV)</li> -->
 </ul>
 </font>
 
@@ -537,9 +292,9 @@ Currently, I mainly focus on solving <B>the real-world low-quality image restora
 <h2>Teaching</h2>
 <font size="2"> 
 <ul>
-<li>Polyu COMP1003: STATISTICAL TOOLS AND APPLICATIONS, Teaching Assistant, 2019</li>
+<!-- <li>Polyu COMP1003: STATISTICAL TOOLS AND APPLICATIONS, Teaching Assistant, 2019</li>
 <li>Polyu COMP3122: INFORMATION SYSTEMS DEVELOPMENT, Teaching Assistant, 2019</li>
-<li>Polyu COMP6706: ADVANCED TOPICS IN VISUAL COMPUTING, Teaching Assistant, 2020</li>
+<li>Polyu COMP6706: ADVANCED TOPICS IN VISUAL COMPUTING, Teaching Assistant, 2020</li> -->
 </ul>
 </font>
 <!-- Links -->
